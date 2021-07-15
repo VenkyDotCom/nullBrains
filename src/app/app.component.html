@@ -1,0 +1,35 @@
+<div style="margin-left: 4%; margin-right: 4%; text-align:center; ">
+  <nav style="text-align:center; padding-top: 2%; padding-bottom: 2%; ">
+    <h2 style="float: left; font-weight: 700;">nullBrains.</h2>
+    <a class="mainLinks" routerLinkActive="activebutton" routerLink="/home">Home</a>
+    <a class="mainLinks" routerLinkActive="activebutton" routerLink="/features">Features</a>
+    <a class="mainLinks" routerLinkActive="activebutton" routerLink="/blog">Blog</a>
+    <a class="mainLinks" routerLinkActive="activebutton" routerLink="/contact">Contact</a>
+    <!-- <i class="far fa-search" style="float: inherit;"></i> -->
+    <span class="fas fa-search" style="float: inherit;"></span>
+    <button type="button" style="float: right;" class="btn btn-rounded btn-primary">Sign Up</button>
+    &nbsp;
+    <button type="button" style="float: right;" class="btn btn-light">Sign In</button>
+    &nbsp;
+  </nav>
+  <div style="opacity: 60%;">
+    <hr style="height: 2px;">
+  </div>
+  <div style="margin-left: 4%; margin-right: 4%;">
+    <!-- <router-outlet></router-outlet> -->
+  </div>
+  <div style="margin-left: 4%; margin-right: 4%;">
+    <div style="margin: 10%;">
+      <app-dashboard></app-dashboard>
+    </div>
+    <div>
+      <app-features></app-features>
+    </div>
+    <div>
+      <app-blog></app-blog>
+    </div>
+    <div>
+      <app-contact></app-contact>
+    </div>
+  </div>
+</div>
