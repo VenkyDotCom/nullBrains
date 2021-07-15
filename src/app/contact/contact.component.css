@@ -1,0 +1,16 @@
+.mainLinks {
+    color: rgb(86, 87, 88);
+    padding-left: 2%;
+    margin-left: 2%;
+    font-weight: 550;
+    text-decoration: none;
+    opacity: 50%;
+
+}
+
+.mediaIcons{
+    padding-left: 2%;
+    padding-right: 2%;
+    opacity: 50%;
+    font-size: xx-large;
+}
